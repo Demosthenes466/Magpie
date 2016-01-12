@@ -1,17 +1,24 @@
 findKeyword("She's my sister", "sister", 0);
+
 | Iteration | psn | before | after |
 |-----------|-----|--------|-------|
-| 1         | 9   |   " "     |   " "    |
+| 1         | 9   |   " "  |   " " |
+
 findKeyword("Brother Tom is helpful", "brother", 0);
+
 | Iteration | psn | before | after |
 |-----------|-----|--------|-------|
 | 1         | 0   | " "    | " "   |
+
 findKeyword("I can't catch wild cats.", "cat", 0);
+
 | Iteration | psn | before | after |
 |-----------|-----|--------|-------|
 | 1         | 9   | " "    | "c"   |
 | 2         | 20  | " "    | "s"   |
+
 findKeyword("I know nothing about snow plows.", "no", 0);
+
 | Iteration | psn | before | after |
 |-----------|-----|--------|-------|
 | 1         | 3   | "k"    | "w"   |
